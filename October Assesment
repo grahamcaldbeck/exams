@@ -1,0 +1,30 @@
+question 1
+#student name: graham caldbeck
+
+taylorswiftsongs = ("Love story","blank space","shake it off","bad blood","delacite","you belong with me","wildest dreams","red","all to well","22")
+print (taylorswiftsongs)
+
+songlist = input("please enter song from the list above :")
+if  songlist:
+    print ("the song  is in the list")
+    
+else :
+    print("this song is not on the list")
+
+
+
+#question2
+#student name : graham caldbeck
+
+print ("welcome to temprature alert system.")
+temp = int(input("please enter temprature value in degrees celsius:"))
+
+
+if temp <20:
+    print("to cold. turn up heating")
+    
+elif temp ==20<=24:
+    print("temprature is just right")
+    
+else :
+    print("to warm. turn down heating.")
