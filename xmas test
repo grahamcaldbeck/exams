@@ -1,0 +1,20 @@
+#Student Name = Graham caldbeck
+num1 = 9
+num2 = 5
+name = input("please enter your name:")
+print ("hello",name," welcome to the addition and subtraction calculator")
+
+num3 = int(input("please enter a number here"))
+num4 = int(input("please enter another number here"))
+print("Do you want me to (a)dd or (s)ubtract?:")
+
+choice = input()
+
+if choice == "a" or "A":
+    print (num3 + num4)
+elif choice == "s" or "S":
+    print (num3 - num4)
+else:
+    print("invalad option Do you want me to (a)dd or (s)ubtract?:")
+
+
