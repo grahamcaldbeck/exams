@@ -1,0 +1,22 @@
+#Student Name= graham caldbeck
+
+
+print("Household budget calculator, please enter the folowing information,")
+parents = int(input("please enter the number of adults in your household:"))
+kids = int(input("please enter the number of childeren in your household:"))
+
+num_adults = parents 
+num_child = kids
+
+food_budget = 300
+cost_food_adult = 50
+cost_food_child = 35
+
+inflation = int(input("please enter inflation rate:"))
+
+child_allowance = 140
+if num_child >=3:
+    child_allowance =  140+5
+print("Children's allowance total: €", child_allowance*num_child)
+print("Total household food cost: €", cost_food_adult*num_adults+cost_food_child*num_child)
+print("Total household food cost with inflation: €", cost_food_adult*num_adults+cost_food_child*num_child*inflation)
