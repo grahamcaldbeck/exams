@@ -1,0 +1,29 @@
+#Question 1
+#Student Name: graham caldbeck
+
+print("welcome to the driving licence eligabilaty checker")#(i)
+name=input("what is your name:")#(V)
+age=int(input("What age are you?"))#(ii) int(input alows the user to enter a number while being asked a question 
+
+if (age >=17 ):
+    print ("you enterd",age,"")#(iii)
+    print("",name,"You are entitled to apply for a driving licence.")
+    
+elif (age <17):
+     print ("you enterd",age,"")
+     print ("",name,"You are not entitled to apply for a driving licence.")#(iv)
+     
+elif (age >74):
+    print ("you enterd",age,"")#(iii)
+    print ("",name,"you are to apply for a three-year driving licence")
+    
+    
+else:
+    print ("you enterd",age,"")#(iii)
+    print ("",name,"you are  entiteled to apply for a three-year driving licence")#(iv)
+
+#question 2
+#student Name: graham caldbeck
+
+number = int(input("guess a number between 1 and 50:"))
+
